@@ -1,0 +1,94 @@
+.FloatingWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* height: 100px; */
+    /* width: 100px; */
+    z-index: 1000;
+    border-radius: 50%;
+}
+
+.DialogBox{
+    display: 'flex';
+    position: relative;
+    bottom: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-direction: column;
+}
+
+/* add DialogBox_header */
+#DialogBox_header{
+    background-color: #25d366;
+    height: 29px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DialogBox_footer{
+    display: flex;
+    background-color: white;
+    min-height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text {
+    padding: 0px 12px 5px 12px;
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.wpp-received-message {
+    color: black;
+    padding: 0.5rem;
+    background-color: white;
+    margin: 1rem 12px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    border-radius: 0 5px 5px 5px;
+}
+
+.text-input {
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: none;
+    margin: 10px 10px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #d7ddd9;
+    outline: none;
+    padding: 0 12px;
+    font-size: 14px;
+    font-family: inherit;
+    color: black;
+    resize: none;
+}
+
+.send-button {
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.close-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    /* outline: none; */
+}
